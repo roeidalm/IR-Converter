@@ -4,13 +4,10 @@
 
 using namespace std;
 
-
 int receiverpin = 10;
 //READ:
 IRrecv irrecv(receiverpin);
 decode_results results;
-
-
 
 //SEND:
 IRsend irsend;
